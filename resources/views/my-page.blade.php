@@ -1,6 +1,4 @@
-@extends('layouts.default')
-@section('content')
-        <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <title>Bootstrap Example</title>
@@ -45,7 +43,7 @@
 </head>
 <body>
 
-<!--<nav class="navbar navbar-inverse">
+<nav class="navbar navbar-inverse">
     <div class="container-fluid">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -59,6 +57,7 @@
             <ul class="nav navbar-nav">
                 <li class="active"><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
+                <li><a href="#">Projects</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
@@ -66,39 +65,36 @@
             </ul>
         </div>
     </div>
-</nav>-->
+</nav>
 
 <div class="container-fluid text-center">
     <div class="row content">
-        <!--<div class="col-sm-2 sidenav">
+        <div class="col-sm-2 sidenav">
             <p><a href="#">Link</a></p>
             <p><a href="#">Link</a></p>
             <p><a href="#">Link</a></p>
-        </div>-->
+        </div>
         <div class="col-sm-8 text-left">
             <h1>Welcome</h1>
-            <p>This is Maddy's first Laravel Webpage! I have created a 2 page website using Laravel,
-            as per the assignment requirements. This page contains a Home page and an About page.
-                Additionally, there is a contact page where you can submit a form.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             <hr>
-            <h3>Thank you!</h3>
-            <p>Thank you for visiting my first Laravel page.</p>
+            <h3>Test</h3>
+            <p>Lorem ipsum...</p>
         </div>
-        <!--<div class="col-sm-2 sidenav">
+        <div class="col-sm-2 sidenav">
             <div class="well">
                 <p>ADS</p>
             </div>
             <div class="well">
                 <p>ADS</p>
-            </div>-->
+            </div>
         </div>
     </div>
 </div>
 
 <footer class="container-fluid text-center">
-    <p>Maddy's First Laravel Webpage</p>
+    <p>Footer Text</p>
 </footer>
 
 </body>
 </html>
-@stop
