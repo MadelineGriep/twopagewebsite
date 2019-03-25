@@ -6,13 +6,13 @@
  * Time: 8:53 AM
  */
 ?>
-<div class="navbar">
-    <div class="navbar-inner">
-        <a id="logo" href="/">Maddy's Webpage</a>
-        <ul class="nav">
-            <li><a href="/">Home</a></li>
-            <li><a href="/about">About</a></li>
-            <li><a href="/contact">Contact</a></li>
-        </ul>
+<header class="masthead mb-auto">
+    <div class="inner">
+        <h3 class="masthead-brand">Cover</h3>
+        <nav class="nav nav-masthead justify-content-center">
+            <a class="nav-link active" href="#">Home</a>
+            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#">Contact</a>
+        </nav>
     </div>
-</div>
+</header>
