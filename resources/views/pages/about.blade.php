@@ -6,7 +6,7 @@
  * Time: 8:51 AM
  */
 ?>
-@extends('layouts.sidebar')
+@extends('layouts.default')
 @section('content')
     This is the about page
-@stop
+@endsection

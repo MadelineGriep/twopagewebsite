@@ -4,21 +4,12 @@
 @include('includes.head')
 </head>
 <body>
-<div class="container">
+<div class="cover-container d-flex w-100 p-3 mx-3 flex-column">
+    @include('includes.header')
 
-    <header class="row">
-        @include('includes.header')
-    </header>
+    @yield('content')
 
-    <div id="main" class="row">
-
-        @yield('content')
-
-    </div>
-
-    <footer class="row">
-        @include('includes.footer')
-    </footer>
+    @include('includes.footer')
 
 </div>
 </body>
